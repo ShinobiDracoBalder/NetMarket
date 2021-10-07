@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{D6C9419C-D786-4A74-B680-10F23DA95ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{705DC1F2-37C7-4019-B015-EEEB5972C933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{28738922-E001-42BB-B924-318C6D48FD95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C9419C-D786-4A74-B680-10F23DA95ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C9419C-D786-4A74-B680-10F23DA95ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C9419C-D786-4A74-B680-10F23DA95ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C9419C-D786-4A74-B680-10F23DA95ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705DC1F2-37C7-4019-B015-EEEB5972C933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705DC1F2-37C7-4019-B015-EEEB5972C933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705DC1F2-37C7-4019-B015-EEEB5972C933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705DC1F2-37C7-4019-B015-EEEB5972C933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28738922-E001-42BB-B924-318C6D48FD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28738922-E001-42BB-B924-318C6D48FD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28738922-E001-42BB-B924-318C6D48FD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28738922-E001-42BB-B924-318C6D48FD95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03F8855D-AC9C-443F-9C48-5C64993E8E38}
+	EndGlobalSection
+EndGlobal
