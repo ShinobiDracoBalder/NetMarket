@@ -31,7 +31,7 @@ namespace WebApi
                 {
                     var context = services.GetRequiredService<MarketDbContext>();
                     await context.Database.MigrateAsync();
-                    //await MarketDbContextData.CargarDataAsync(context, loggerFactory);
+                    await MarketDbContextData.CargarDataAsync(context, loggerFactory);
 
                     //var userManager = services.GetRequiredService<UserManager<Usuario>>();
                     //var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
